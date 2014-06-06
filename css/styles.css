@@ -1,0 +1,53 @@
+div {
+  font-size: 10px;
+  color: #000000;
+}
+.size1 {
+  font-size: 11px;
+  color: #111111;
+}
+
+.size2 {
+  font-size: 12px;
+  color: #222222;
+}
+
+.size3 {
+  font-size: 13px;
+  color: #333333;
+}
+
+.size4 {
+  font-size: 14px;
+  color: #444444;
+}
+
+.size5 {
+  font-size: 15px;
+  color: #555555;
+}
+
+.size6 {
+  font-size: 16px;
+  color: #666666;
+}
+
+.size7 {
+  font-size: 17px;
+  color: #777777;
+}
+
+.size8 {
+  font-size: 18px;
+  color: #888888;
+}
+
+.size9 {
+  font-size: 19px;
+  color: #999900;
+}
+
+.size10 {
+  font-size: 20px;
+  color: #999999;
+}

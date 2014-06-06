@@ -1,8 +1,20 @@
 var counter = document.getElementById('counter');
 var button = document.getElementById('count_but');
-
-var count = 0;
 var number = 0;
+
+data = counter.innerHTML;
+
 button.onclick = function() {
-  counter.innerHTML = number++;
+  //increases count by 1 for every click
+  counter.innerHTML = ++number;
+
+  //MANIPULATE DATA-COUNT IN DOM
+  counter.setAttribute('data-count', number);
+
+  //SET CLASS SIZE IN DOM
+  counter.setAttribute('class', 'size' + number);
+
+  //OUTPUT TO CONSOLE
+  console.log(counter);
 };
+
