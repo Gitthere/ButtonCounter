@@ -4,21 +4,17 @@ var button = document.getElementById('count_but');
 var count = 0;
 var number = 0;
 
-//FIRST OPTION TO CHANGE COUNTER IN DOM
-//use of data attribute to try to
-//get data-count to change, not working
-var div = document.getElementById('div');
-  data = counter.innerHTML;
-  //div.data("count");
+data = counter.innerHTML;
 
 button.onclick = function() {
-//   SECOND OPTION
-//   var data = ("data-count").text();
-//   ("data-count").replaceWith("<div data-count='number'/>");
-//   ("data-count").val(data);
-// })
-
+  //increases count by 1 for every click
   counter.innerHTML = ++number;
+
+  //MANIPULATE DATA-COUNT IN DOM
+  var newdata = document.getElementById('data-count');
+  counter.setAttribute('data-count', number);
+
+  //OUTPUT TO CONSOLE
   console.log(counter);
 };
 
