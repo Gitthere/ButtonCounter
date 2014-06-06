@@ -1,5 +1,5 @@
 (function(){
-var counter = document.getElementById('counter');
+
 var button = document.getElementById('count_but');
 var number = 0;
 
